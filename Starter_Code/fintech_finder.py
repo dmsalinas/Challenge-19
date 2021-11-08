@@ -245,7 +245,8 @@ st.sidebar.markdown("## Total Wage in Ether")
 # value of the `hours` variable
 # YOUR CODE HERE
 
-#wage = hourly_rate*hours
+#wage = hours*hourly_rate
+
 wage = candidate_database[person][3] * hours
 
 # @TODO
